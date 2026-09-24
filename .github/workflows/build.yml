@@ -15,9 +15,9 @@ jobs:
 
       - name: Setup OpenWrt SDK
         run: |
-          wget https://downloads.openwrt.org/releases/23.05.4/targets/armsr/armv8/openwrt-sdk-23.05.4-armsr-armv8_gcc-12.3.0_musl.Linux-x86_64.tar.xz
-          tar -xf openwrt-sdk-23.05.4-armsr-armv8_gcc-12.3.0_musl.Linux-x86_64.tar.xz
-          mv openwrt-sdk-23.05.4-armsr-armv8_gcc-12.3.0_musl.Linux-x86_64 openwrt-sdk
+          wget https://downloads.openwrt.org/releases/23.05.4/targets/sunxi/cortexa53/openwrt-sdk-23.05.4-sunxi-cortexa53_gcc-12.3.0_musl.Linux-x86_64.tar.xz
+          tar -xf openwrt-sdk-23.05.4-sunxi-cortexa53_gcc-12.3.0_musl.Linux-x86_64.tar.xz
+          mv openwrt-sdk-23.05.4-sunxi-cortexa53_gcc-12.3.0_musl.Linux-x86_64 openwrt-sdk
 
       - name: Install feeds
         working-directory: openwrt-sdk
