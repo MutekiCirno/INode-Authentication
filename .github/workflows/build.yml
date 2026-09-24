@@ -16,8 +16,8 @@ jobs:
       - name: Setup OpenWrt SDK
         run: |
           wget https://downloads.openwrt.org/releases/21.02.6/targets/sunxi/cortexa53/openwrt-sdk-21.02.6-sunxi-cortexa53_gcc-8.4.0_musl.Linux-x86_64.tar.xz
-          tar -xf openwrt-sdk-21.02.6-sunxi-cortexa53_gcc-8.4.0_musl.Linux-x86_64.tar.xz
-          mv openwrt-sdk-21.02.6-sunxi-cortexa53_gcc-8.4.0_musl.Linux-x86_64 openwrt-sdk
+          tar -xf openwrt-sdk-23.05.2-ramips-mt7620_gcc-12.3.0_musl.Linux-x86_64.tar.xz
+          mv openwrt-sdk-23.05.2-ramips-mt7620_gcc-12.3.0_musl.Linux-x86_64 openwrt-sdk
 
       - name: Install feeds
         working-directory: openwrt-sdk
