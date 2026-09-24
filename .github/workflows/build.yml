@@ -15,7 +15,7 @@ jobs:
 
       - name: Setup OpenWrt SDK
         run: |
-          wget https://downloads.openwrt.org/releases/23.05.2/targets/ramips/mt7620/openwrt-sdk-23.05.2-ramips-mt7620_gcc-12.3.0_musl.Linux-x86_64.tar.xz
+          wget https://downloads.openwrt.org/releases/23.05.4/targets/armsr/armv8/openwrt-sdk-23.05.4-armsr-armv8_gcc-12.3.0_musl.Linux-x86_64.tar.xz
           tar -xf openwrt-sdk-23.05.2-ramips-mt7620_gcc-12.3.0_musl.Linux-x86_64.tar.xz
           mv openwrt-sdk-23.05.2-ramips-mt7620_gcc-12.3.0_musl.Linux-x86_64 openwrt-sdk
 
